@@ -3,7 +3,7 @@ abstract class Model {
     private static $pdo;
 
     private static function setBdd() {
-        self::$pdo = new PDO("mysql:host=localhost;dbname=mediatheque; charset=utf8", 'padamino', 'Afrika_0911@');
+        self::$pdo = new PDO("mysql:host=localhost;dbname=??; charset=utf8", '??', '??');
         self::$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
     }
 
